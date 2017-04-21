@@ -1,0 +1,4 @@
+# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# cuchillas
+Cuchilla Yacaré Cururú|254|387|256|-24
+Cuchilla de Belén|253|406|473|-20

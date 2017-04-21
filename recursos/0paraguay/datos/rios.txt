@@ -1,0 +1,9 @@
+# Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# 
+# Referencias:
+# http://upload.wikimedia.org/wikipedia/commons/1/14/Rutas_Nacionales_del_Paraguay.PNG
+Río Pilcomayo|255|230|470|344
+Río Paraguay|254|511|450|282
+Río Apa|253|500|286|351
+Río Paraná|252|639|754|45
+# fin

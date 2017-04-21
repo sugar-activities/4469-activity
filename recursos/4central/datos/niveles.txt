@@ -1,0 +1,109 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial =
+Pregunta = el departamento\de Central|1|Central|Dále, probá de nuevo
+Pregunta = el departamento\de Presidente Hayes|1|Presidente Hayes|Dále, probá de nuevo
+Pregunta = el departamento\de Cordillera|1|Cordillera|Dále, probá de nuevo
+Pregunta = el departamento\de Paraguari|1|Paraguari|Dále, probá de nuevo
+Pregunta = el departamento\de Neembucu|1|Neembucu|Dále, probá de nuevo
+Pregunta = la República\Argentina|1|Argentina|Dále, probá de nuevo
+
+[Centros poblados]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = deptos
+Pregunta = la ciudad\de Aregua|2|Aregua|Es la capital del\departamento
+Pregunta = la ciudad\de Capiatá|2|Capiatá|Está bien al norte
+Pregunta = la ciudad\de Fernando de la Mora|2|Fernando de la Mora|Está al noroeste
+Pregunta = el pueblo\de Guarambaré|2|Guarambaré|Está al oeste
+Pregunta = el pueblo\de Itá|2|Itá|Está en el centro
+Pregunta = el pueblo\de Itauguá|2|Itauguá|Está en el suroeste
+Pregunta = el pueblo\de Juan Augusto Saldívar|2|Juan Augusto Saldívar|Está al norte
+Pregunta = el pueblo\de Lambaré|2|Lambaré|Está en el centro
+Pregunta = el pueblo\de Limpio|2|Limpio|Está en el centro
+Pregunta = el pueblo\de Luque|2|Luque|Está al sur
+Pregunta = el pueblo\de Mariano Roque Alonso|2|Mariano Roque Alonso|Está al este
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río Uruguay|3|Río Uruguay|Queda en el límite\con Argentina
+Pregunta = el Río Cuareim|3|Río Cuareim|Queda en el límite\con Brasil
+Pregunta = el Río Arapey|3|Río Arapey|Queda en el límite\con Salto
+Pregunta = el Arroyo Itacumbú|3|A. Itacumbú|Desemboca en el\Río Uruguay
+Pregunta = el Arroyo Ñaquiña|3|A. Ñaquiña|Desemboca en el\Río Uruguay
+Pregunta = el Arroyo Mandiyú|3|A. Mandiyú|Desemboca en el\Río Uruguay
+Pregunta = el Arroyo Guaviyú|3|A. Guaviyú|Desemboca en el\Río Uruguay
+Pregunta = el Arroyo Palma Sola Grande|3|A. Palma Sola Gr.|Queda al suroeste
+Pregunta = el Arroyo Sarandí|3|A. Sarandí|Queda al suroeste
+Pregunta = el Arroyo Yucutuya|3|A. Yucutuya|Desemboca en el\Río Cuareim
+Pregunta = el Arroyo Cuaro Grande|3|A. Cuaro Gr.|Es uno de los más\largos del departamento
+Pregunta = el Arroyo Cuaro Chico|3|A. Cuaro Ch.|Está en el centro
+Pregunta = el Arroyo Pelado|3|A. Pelado|Está en el centro
+Pregunta = el Arroyo Tres Cruces Grande|3|A. Tres Cruces Gr.|Desemboca en el\Río Cuareim
+Pregunta = el Arroyo Catalán Grande|3|A. Catalán Gr.|Está al este
+Pregunta = el Arroyo Catalán Chico|3|A. Catalán Ch.|Está al este
+Pregunta = el Arroyo Catalancito|3|A. Catalancito|Está al este
+Pregunta = el Arroyo Maneco|3|A. Maneco|Está al este
+Pregunta = el Arroyo de la Invernada|3|A. de la Invernada|Está en el límite\con Brasil
+Pregunta = el Arroyo Sepultura|3|A. Sepultura|Está al este
+Pregunta = el Arroyo Yacuy|3|A. Yacuy|Está en el límite\con Salto
+Pregunta = el Arroyo Ceballos|3|A. Ceballos|Está al sur
+Pregunta = el Arroyo de las Cañas|3|A. de las Cañas|Está al sur
+Pregunta = el Arroyo Patitos|3|A. Patitos|Está al sur
+Pregunta = el Arroyo Sequeira|3|A. Sequeira|Está al sur
+Pregunta = el Arroyo Espinillo|3|A. Espinillo|Está al sur
+Pregunta = el Arroyo Sarandí Grande|3|A. Sarandí Gr.|Está en el centro
+
+[Elevaciones]
+dibujoInicial = lineasDepto, cuchillas, cerros
+nombreInicial =
+Pregunta = la Cuchilla Yacaré Cururú|4|Cuchilla Yacaré Cururú|Dále, probá de nuevo
+Pregunta = la Cuchilla de Belén|4|Cuchilla de Belén|Dále, probá de nuevo
+Pregunta = el Cerro Chato|5|Co. Chato|Está al norte
+Pregunta = los Tres Cerros de Catalán|5|Tres Cerros de Catalán|Están al este
+Pregunta = el Cerro Pintado|5|Co. Pintado|Está cerca de la capital
+

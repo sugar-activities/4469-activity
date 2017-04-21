@@ -1,0 +1,8 @@
+# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# departamentos
+Central|200|410|370|0
+Presidente Hayes|240|165|80|0
+Cordillera|225|590|120|0
+Paraguari|230|590|650|0
+Neembucu|235|230|770|0
+Argentina|205|80|450|0

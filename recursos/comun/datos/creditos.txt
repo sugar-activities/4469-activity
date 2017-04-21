@@ -1,0 +1,9 @@
+Autor: ParaguayEduca                      Maintainer: Kenny Meyer
+Por favor enviar comentarios y sugerencias a knny.myer@gmail.com
+
+Este programa es software libre y desarrollado por la comunidad
+
+Sonidos bajados de freesound.org: btn045.wav por junggle y boom1.wav por de NoiseCollector
+Fuentes bajadas de urbanfonts.com: AllCaps.ttf por BobFrantic y Share-Regular.ttf por anónimo
+
+Ídea original: CeibalJam (http://ceibaljam.org)

@@ -1,0 +1,8 @@
+[Activity]
+name = Conozco Paraguay
+activity_version = 2
+host_version = 1
+bundle_id = org.paraguayeduca.conozcoparaguay
+icon = activity
+exec = sugar-activity activity.Activity
+license = GPL+

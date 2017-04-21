@@ -1,0 +1,85 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial = 
+Pregunta = el departamento\de Presidente Hayes|1|Presidente Hayes|Dále, probá de nuevo
+Pregunta = el departamento\de Alto Paraguay|1|Alto Paraguay|Dále, probá de nuevo
+Pregunta = el departamento\de Boquerón|1|Boquerón|Dále, probá de nuevo
+Pregunta = el departamento\de Concepción|1|Concepción|Dále, probá de nuevo
+Pregunta = el departamento\de San Pedro|1|San Pedro|Dále, probá de nuevo
+Pregunta = el departamento\de Amambay|1|Amambay|Dále, probá de nuevo
+Pregunta = el departamento\de Canindeyú|1|Canindeyú|Dále, probá de nuevo
+Pregunta = el departamento\de Central|1|Central|Dále, probá de nuevo
+Pregunta = el departamento\de Paraguarí|1|Paraguarí|Dále, probá de nuevo
+Pregunta = el departamento\de Caaguazú|1|Caaguazú|Dále, probá de nuevo
+Pregunta = el departamento\de Guairá|1|Guairá|Dále, probá de nuevo
+Pregunta = el departamento\de Caazapá|1|Caazapá|Dále, probá de nuevo
+Pregunta = el departamento\de Ñeembucú|1|Ñeembucú|Dále, probá de nuevo
+Pregunta = el departamento\de Misiones|1|Misiones|Dále, probá de nuevo
+Pregunta = el departamento\de Alto Paraná|1|Alto Paraná|Dále, probá de nuevo
+Pregunta = el departamento\de Itapúa|1|Itapúa|Dále, probá de nuevo
+Pregunta = el departamento\de Cordillera|1|Cordillera|Dále, probá de nuevo
+
+[Capitales departamentales]
+dibujoInicial = lineasDepto, capitales
+nombreInicial = deptos
+Pregunta = la ciudad\de Concepcion|2|Concepcion|Dále, probá de nuevo
+Pregunta = la ciudad\de Encarnacion|2|Encarnacion|Dále, probá de nuevo
+Pregunta = la ciudad\de Ciudad del Este|2|Ciudad del Este|Dále, probá de nuevo
+Pregunta = la ciudad\de San Pedro|2|San Pedro|Dále, probá de nuevo
+Pregunta = la ciudad\de Caazapa|2|Caazapa|Dále, probá de nuevo
+Pregunta = la ciudad\de Salto del Guaira|2|Salto del Guaira|Dále, probá de nuevo
+Pregunta = la ciudad\de Filadelfia|2|Filadelfia|Dále, probá de nuevo
+Pregunta = la ciudad\de Caacupe|2|Caacupe|Dále, probá de nuevo
+Pregunta = la ciudad\de Pedro Juan Caballero|2|Pedro Juan Caballero|Dále, probá de nuevo
+Pregunta = la ciudad\de San Juan Bautista|2|San Juan Bautista|Dále, probá de nuevo
+Pregunta = la ciudad\de Pilar|2|Pilar|Dále, probá de nuevo
+Pregunta = la ciudad\de Villarica|2|Villarica|Dále, probá de nuevo
+Pregunta = la ciudad\de Fuerte Olimpo|2|Fuerte Olimpo|Dále, probá de nuevo
+Pregunta = la ciudad\de Villa Hayes|2|Villa Hayes|Dále, probá de nuevo
+Pregunta = la ciudad\de Coronel Oviedo|2|Coronel Oviedo|Dále, probá de nuevo
+Pregunta = la ciudad\de Aregua|2|Aregua|Dále, probá de nuevo
+Pregunta = la ciudad\de Paraguari|2|Paraguari|Dále, probá de nuevo

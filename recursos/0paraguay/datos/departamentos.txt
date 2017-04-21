@@ -1,0 +1,24 @@
+# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# departamentos
+Alto Paraguay|255|290|120|0
+Boquerón|245|155|300|0
+Presidente Hayes|235|360|460|0
+Concepción|225|525|390|0
+San Pedro|215|550|465|0
+Amambay|205|620|380|-70
+Canindeyú|195|670|505|0
+Cordillera|185|490|595|0
+Caaguazú|175|620|600|0
+Alto Paraná|165|710|620|70
+Central|155|475|635|57
+Paraguarí|145|520|675|0
+Guairá|135|590|655|0
+Caazapá|125|595|710|32
+Ñeembucú|115|435|790|0
+Misiones|105|515|755|0
+Itapúa|95|620|755|30
+# paises limitrofes
+República Federativa del Brasil|65|475|185|322
+República Argentina|75|20|610|90
+Estado Plurinacional de Bolivia|85|10|10|0
+# fin
